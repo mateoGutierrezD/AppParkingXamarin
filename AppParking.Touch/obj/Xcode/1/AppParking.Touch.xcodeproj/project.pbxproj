@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D59C2E20000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47BDC1E0000000000000000 /* UIKit.framework */; };
+		509E7AD60000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C094120000000000000000 /* MapKit.framework */; };
+		F2341E090000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795637450000000000000000 /* Foundation.framework */; };
+		DE7CE7160000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659F00520000000000000000 /* CoreGraphics.framework */; };
+		FA103F990000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813258D50000000000000000 /* Assets.xcassets */; };
+		5450E6740000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB72FFB00000000000000000 /* Info.plist */; };
+		8B4CD55B0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126EEE970000000000000000 /* Entitlements.plist */; };
+		475602850000000000000000 /* VehiclesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE781BC10000000000000000 /* VehiclesViewController.xib */; };
+		2345BE210000000000000000 /* VehicleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA67D75D0000000000000000 /* VehicleCell.xib */; };
+		806A7BA00000000000000000 /* VehicleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F28C0F60000000000000000 /* VehicleCell.m */; };
+		3CEDBBA80000000000000000 /* VehiclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FD4E40000000000000000 /* VehiclesViewController.m */; };
+		2721A9BC0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE43C2F80000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EEEC5040000000000000000 /* AppParking.Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "AppParking.Touch.app"; path = "AppParking.Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47BDC1E0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		D7C094120000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		795637450000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		659F00520000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		813258D50000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		DB72FFB00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		126EEE970000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		CE781BC10000000000000000 /* VehiclesViewController.xib */ = {isa = PBXFileReference; name = "VehiclesViewController.xib"; path = "Controllers/VehiclesViewController.xib"; sourceTree = "<group>"; };
+		AA67D75D0000000000000000 /* VehicleCell.xib */ = {isa = PBXFileReference; name = "VehicleCell.xib"; path = "Cells/VehicleCell.xib"; sourceTree = "<group>"; };
+		B1242A610000000000000000 /* VehicleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "VehicleCell.h"; path = "VehicleCell.h"; sourceTree = "<group>"; };
+		8F28C0F60000000000000000 /* VehicleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "VehicleCell.m"; path = "VehicleCell.m"; sourceTree = "<group>"; };
+		227A31B10000000000000000 /* VehiclesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "VehiclesViewController.h"; path = "VehiclesViewController.h"; sourceTree = "<group>"; };
+		C40FD4E40000000000000000 /* VehiclesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "VehiclesViewController.m"; path = "VehiclesViewController.m"; sourceTree = "<group>"; };
+		E7548CD80000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		AE43C2F80000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F47D2750000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59C2E20000000000000000 /* UIKit.framework in Frameworks */,
+				509E7AD60000000000000000 /* MapKit.framework in Frameworks */,
+				F2341E090000000000000000 /* Foundation.framework in Frameworks */,
+				DE7CE7160000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4C78FB70000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				311D118B0000000000000000 /* AppParking.Touch */,
+				A69CCECD0000000000000000 /* Frameworks */,
+				2F250A100000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F250A100000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EEEC5040000000000000000 /* AppParking.Touch.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		A69CCECD0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B47BDC1E0000000000000000 /* UIKit.framework */,
+				D7C094120000000000000000 /* MapKit.framework */,
+				795637450000000000000000 /* Foundation.framework */,
+				659F00520000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		311D118B0000000000000000 /* AppParking.Touch */ = {
+			isa = PBXGroup;
+			children = (
+				E7548CD80000000000000000 /* AppDelegate.h */,
+				AE43C2F80000000000000000 /* AppDelegate.m */,
+				813258D50000000000000000 /* Assets.xcassets */,
+				126EEE970000000000000000 /* Entitlements.plist */,
+				DB72FFB00000000000000000 /* Info.plist */,
+				B1242A610000000000000000 /* VehicleCell.h */,
+				8F28C0F60000000000000000 /* VehicleCell.m */,
+				227A31B10000000000000000 /* VehiclesViewController.h */,
+				C40FD4E40000000000000000 /* VehiclesViewController.m */,
+				11A362270000000000000000 /* Cells */,
+				35B3A68B0000000000000000 /* Controllers */,
+			);
+			name = "AppParking.Touch";
+			sourceTree = "<group>";
+		};
+		35B3A68B0000000000000000 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE781BC10000000000000000 /* VehiclesViewController.xib */,
+			);
+			name = "Controllers";
+			sourceTree = "<group>";
+		};
+		11A362270000000000000000 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AA67D75D0000000000000000 /* VehicleCell.xib */,
+			);
+			name = "Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DDFB240000000000000000 /* AppParking.Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98879500000000000000000 /* Build configuration list for PBXNativeTarget "AppParking.Touch" */;
+			buildPhases = (
+				42BF6D850000000000000000 /* Sources */,
+				5F47D2750000000000000000 /* Frameworks */,
+				51039FFD0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppParking.Touch";
+			productName = "AppParking.Touch";
+			productReference = 4EEEC5040000000000000000 /* AppParking.Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24035BF0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = E7B33A3A0000000000000000 /* Build configuration list for PBXProject "AppParking.Touch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4C78FB70000000000000000;
+			productRefGroup = 2F250A100000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DDFB240000000000000000 /* AppParking.Touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51039FFD0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA103F990000000000000000 /* Assets.xcassets in Resources */,
+				5450E6740000000000000000 /* Info.plist in Resources */,
+				8B4CD55B0000000000000000 /* Entitlements.plist in Resources */,
+				475602850000000000000000 /* VehiclesViewController.xib in Resources */,
+				2345BE210000000000000000 /* VehicleCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BF6D850000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806A7BA00000000000000000 /* VehicleCell.m in Sources */,
+				3CEDBBA80000000000000000 /* VehiclesViewController.m in Sources */,
+				2721A9BC0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D1C06FA0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63C5CA830000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A972E0E0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.co.ceiba.App-Parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		D5F983700000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.co.ceiba.App-Parking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B33A3A0000000000000000 /* Build configuration list for PBXProject "AppParking.Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1C06FA0000000000000000 /* Debug */,
+				63C5CA830000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B98879500000000000000000 /* Build configuration list for PBXNativeTarget "AppParking.Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A972E0E0000000000000000 /* Debug */,
+				D5F983700000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24035BF0000000000000000 /* Project object */;
+}

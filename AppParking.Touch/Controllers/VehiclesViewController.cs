@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using ADNParking.Core.Domain;
 using ADNParking.Core.Dtos;
+using AppParking.Touch.Cells;
 using AppParking.Touch.Sources;
 using UIKit;
 
@@ -19,6 +20,7 @@ namespace AppParking.Touch.ViewControllers
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+            RegisterCell();
             ShowVehicles();
         }
 
@@ -26,6 +28,11 @@ namespace AppParking.Touch.ViewControllers
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+        }
+
+        private void RegisterCell()
+        {
+            vehiclesTableView.RegisterNibForCellReuse(UINib.FromName(VehicleCell.Key, null), VehicleCell.Key);
         }
 
         private void ShowVehicles()

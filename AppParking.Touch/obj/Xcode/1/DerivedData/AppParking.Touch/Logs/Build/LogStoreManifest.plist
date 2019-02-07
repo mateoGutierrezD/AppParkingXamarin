@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>2AEB1462-3695-4E6B-BE79-606585F82A46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2AEB1462-3695-4E6B-BE79-606585F82A46.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppParking.Touch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppParking.Touch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AppParking.Touch</string>
+			<key>timeStartedRecording</key>
+			<real>571259979.21764398</real>
+			<key>timeStoppedRecording</key>
+			<real>571259983.09853995</real>
+			<key>title</key>
+			<string>Build AppParking.Touch</string>
+			<key>uniqueIdentifier</key>
+			<string>2AEB1462-3695-4E6B-BE79-606585F82A46</string>
+		</dict>
+		<key>51A837DB-492D-48C6-BBAA-25C149BBB501</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>51A837DB-492D-48C6-BBAA-25C149BBB501.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppParking.Touch project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppParking.Touch</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean AppParking.Touch</string>
+			<key>timeStartedRecording</key>
+			<real>571259997.87658405</real>
+			<key>timeStoppedRecording</key>
+			<real>571259997.96903801</real>
+			<key>title</key>
+			<string>Clean AppParking.Touch</string>
+			<key>uniqueIdentifier</key>
+			<string>51A837DB-492D-48C6-BBAA-25C149BBB501</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

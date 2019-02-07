@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/ADNParking.Core.csproj",
+      "projectUniqueName": "/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/ADNParking.Core.csproj",
       "projectName": "ADNParking.Core",
-      "projectPath": "/Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/ADNParking.Core.csproj",
+      "projectPath": "/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/ADNParking.Core.csproj",
       "packagesPath": "/Users/mateo.gutierrez/.nuget/packages/",
-      "outputPath": "/Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/obj",
+      "outputPath": "/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

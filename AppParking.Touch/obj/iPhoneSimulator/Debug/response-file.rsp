@@ -1,5 +1,5 @@
---cache=/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/mtouch-cache
---sim=/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/AppParking.Touch.app
+--cache=/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/mtouch-cache
+--sim=/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/AppParking.Touch.app
 --executable=AppParking.Touch
 --debug
 --profiling
@@ -10,9 +10,9 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/mtouch-symbols.list
+--symbollist=/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/mtouch-symbols.list
 --dsym=no
--r=/Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.dll
+-r=/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -159,7 +159,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
--r=/Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.dll
+-r=/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/AppParking.Touch.exe
+--root-assembly=/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/AppParking.Touch.exe
 

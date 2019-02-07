@@ -9,3 +9,14 @@
 /Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.pdb
 /Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.Resources.VehicleStrings.resources
 /Users/mateo.gutierrez/Projects/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.csproj.GenerateResource.cache
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.deps.json
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.dll
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/bin/Debug/netstandard2.0/ADNParking.Core.pdb
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.csprojAssemblyReference.cache
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.Resources.VehicleStrings.resources
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.csproj.GenerateResource.cache
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.csproj.CoreCompileInputs.cache
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.AssemblyInfoInputs.cache
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.AssemblyInfo.cs
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.dll
+/Users/mateo.gutierrez/Documents/Development/Xamarin/ADNParking/ADNParking.Core/obj/Debug/netstandard2.0/ADNParking.Core.pdb

@@ -14,14 +14,12 @@ namespace AppParking.Touch.Sources
         public VehiclesTableViewDataSource(List<Vehicle> vehicles) 
         {
             this.vehicles = vehicles;
-           // c.RegisterClassForCellReuse(typeof(MyCellId), MyCellId);
-
         }
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            //  var vehicleCell = tableView.DequeueReusableCell(identifier: VehicleCell.Key) as VehicleCell;
-            VehicleCell vehicleCell = tableView.DequeueReusableCell("VehicleCell", indexPath) as VehicleCell;
+            var vehicleCell = tableView.DequeueReusableCell(identifier: VehicleCell.Key) as VehicleCell;
+           // VehicleCell vehicleCell = tableView.DequeueReusableCell("VehicleCell", indexPath) as VehicleCell;
 
             vehicleCell.SetData(vehicles[indexPath.Row]);
             return vehicleCell;
