@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{EA705C71-4F84-4C65-A6CA-D7FE3945A90F}|Default">
+  <MonoDevelop.Ide.ItemProperties.AppParking.Touch automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.14791556-9C07-4FB0-A000-5E02BC1A0CA9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppParking.Touch/Controllers/VehiclesViewController.cs">
+    <Files>
+      <File FileName="ADNParking.Core/Dtos/VehicleTypes.cs" Line="5" Column="41" />
+      <File FileName="ADNParking.Core/Dtos/Vehicle.cs" Line="17" Column="6" />
+      <File FileName="ADNParking.Core/Repositories/IVehicleRepository.cs" Line="8" Column="23" />
+      <File FileName="ADNParking.Core/Repositories/IVehicleTypeRepository.cs" Line="6" Column="22" />
+      <File FileName="ADNParking.Core/Repositories/Implementations/Remote/VehicleRepository.cs" Line="22" Column="1" />
+      <File FileName="ADNParking.Core/Repositories/Implementations/Remote/VehicleTypeRepository.cs" Line="11" Column="10" />
+      <File FileName="AppParking.Touch/Main.cs" Line="11" Column="30" />
+      <File FileName="AppParking.Touch/AppDelegate.cs" Line="27" Column="41" />
+      <File FileName="AppParking.Touch/Controllers/VehiclesViewController.cs" Line="22" Column="28" />
+      <File FileName="AppParking.Touch/Cells/VehicleCell.cs" Line="17" Column="28" />
+      <File FileName="ADNParking.Core/Resources/VehicleStrings.resx" Line="18" Column="12" />
+      <File FileName="ADNParking.Core/Resources/VehicleStrings.Designer.cs" Line="50" Column="46" />
+      <File FileName="ADNParking.Core/Domain/VehicleDomain.cs" Line="19" Column="31" />
+      <File FileName="AppParking.Touch/Sources/VehiclesTableViewDataSource.cs" Line="24" Column="100" />
+      <File FileName="AppParking.Touch/Controllers/VehiclesViewController.xib" />
+      <File FileName="AppParking.Touch/Cells/VehicleCell.xib" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

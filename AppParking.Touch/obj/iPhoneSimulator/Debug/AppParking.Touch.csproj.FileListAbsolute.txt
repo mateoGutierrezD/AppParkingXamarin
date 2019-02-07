@@ -1,0 +1,15 @@
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/AppParking.Touch.exe
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/AppParking.Touch.pdb
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/optimized/
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/AppParking.Touch.csprojAssemblyReference.cache
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/AppParking.Touch.csproj.CoreCompileInputs.cache
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/AppParking.Touch.exe
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/AppParking.Touch.pdb
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/ADNParking.Core.dll
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/bin/iPhoneSimulator/Debug/ADNParking.Core.pdb
+/Users/mateo.gutierrez/Projects/ADNParking/AppParking.Touch/obj/iPhoneSimulator/Debug/AppParking.Touch.csproj.CopyComplete
